@@ -5,5 +5,104 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Red Hat Display", serif;
+  width: 100vw;
+}
+
+button {
+  font-family: "Red Hat Display", serif;
+}
+
+.header-section {
+  height: 1.75rem;
+  margin: 1.75rem auto 0 auto;
+}
+
+.upper-section {
+  padding: 4rem 0 2rem 0;
+}
+
+.image-cluster-contaiener {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.0625rem;
+  overflow: hidden;
+}
+
+.cluster-heading {
+  margin: 3rem 2.1875rem 2rem 2.1875rem;
+  text-align: center;
+}
+
+.cluster-heading-header {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: hsl(240, 21%, 20%);
+  margin-bottom: 1.5rem;
+}
+
+.cluster-heading-text {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(240, 10%, 57%);
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.donwload-btn {
+  width: 12.0625rem;
+  height: 3.5rem;
+  padding: 1rem 2.5rem;
+  background-color: hsl(192, 37%, 48%);
+  border: none;
+  border-radius: 1.8125rem;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(0, 0%, 98%);
+}
+
+.marked {
+  background-color: transparent;
+  color: hsl(192, 90%, 77%);
+}
+
+.what-is-it-btn {
+  width: 10.0625rem;
+  height: 3.5rem;
+  padding: 1rem 2.5rem;
+  background-color: hsl(268, 34%, 53%);
+  border: none;
+  border-radius: 1.8125rem;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(0, 0%, 98%);
+}
+
+.four-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.four-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }

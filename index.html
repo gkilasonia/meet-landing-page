@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -18,59 +19,109 @@
     <title>Frontend Mentor | Meet landing page</title>
   </head>
   <body>
-    <header>
-      <picture>
-        <img
-          src="./assets/logo.svg"
-          alt="Meet logo whith two diagonal dots green and purple colors"
-        />
-      </picture>
+    <!-- Logo section -->
+    <header class="header-section">
+      <img
+        src="./assets/logo.svg"
+        alt="Meet logo whith two diagonal dots green and purple colors"
+      />
     </header>
     <main>
-      <section>
-        <picture>
-          <img
-            src="./assets/tablet/image-hero.png"
-            alt="12 circle-shaped images of diverse individuals, representing diferrent ethnics"
-          />
-        </picture>
-        <header>
-          <h1>Group Chat for Everyone</h1>
-        </header>
-        <p>
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
-        <div>
-          <button>Download v1.3</button>
-          <button>What is it?</button>
+      <section class="upper-section">
+        <div class="image-cluster-contaiener">
+          <!-- Image cluster left section -->
+          <picture class="img-cluster-left">
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-hero-left.png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/tablet/image-hero-left.png"
+            />
+            <img
+              class="image-left"
+              src="./assets/mobile/image-hero-left.png"
+              alt="A collage of six diverse individuals in circular frames, each with distinct expressions and backgrounds."
+            />
+          </picture>
+          <!-- Image cluster right section -->
+          <picture class="img-cluster-right">
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-hero-right.png"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/tablet/image-hero-right.png"
+            />
+            <img
+              class="image-right"
+              src="./assets/mobile/image-hero-right.png"
+              alt="A collage of six diverse individuals in circular frames, each with distinct expressions and backgrounds."
+            />
+          </picture>
+        </div>
+        <section class="cluster-heading">
+          <hgroup>
+            <h1 class="cluster-heading-header">Group Chat for Everyone</h1>
+            <p class="cluster-heading-text">
+              Meet makes it easy to connect with others face-to-face virtually
+              and collaborate across any device.
+            </p>
+          </hgroup>
+        </section>
+        <div class="button-group">
+          <button class="donwload-btn">
+            Download <mark class="marked">v1.3</mark>
+          </button>
+          <button class="what-is-it-btn">What is it?</button>
         </div>
       </section>
-      <section>
-        <picture>
-          <img
-            src="./assets/mobile/number-one.png"
-            alt="A circular white icon with the number 01 in the center is suspended from a thin vertical line against a plain background."
-          />
-        </picture>
-        <picture>
-          <img
-            src="./assets/desktop/image-woman-in-videocall.jpg"
-            alt="A smiling woman wearing headphones, sitting at a wooden table and engaging in a video call on her laptop in a modern kitchen setting."
-          />
-          <img
-            src="./assets/desktop/image-women-videochatting.jpg"
-            alt="Three older women smiling while looking at a smartphone together, sitting closely on a couch"
-          />
-          <img
-            src="./assets/desktop/image-men-in-meeting.jpg"
-            alt="Two men having a video conference, one visible on the laptop screen and the other holding documents while seated at a desk"
-          />
-          <img
-            src="./assets/desktop/image-man-texting.jpg"
-            alt="A man in a white sweater and watch sits on a couch, smiling while looking at his smartphone. Books and decor fill the shelves in the background."
-          />
-        </picture>
+      <!-- 4 image section -->
+      <section class="four-image-section">
+        <img
+          src="./assets/mobile/number-one.png"
+          alt="A circular white icon with the number 01 in the center is suspended from a thin vertical line against a plain background."
+        />
+        <div class="four-image-container">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-woman-in-videocall.jpg"
+            />
+            <img
+              src="./assets/tablet/image-woman-in-videocall.png"
+              alt="A smiling woman wearing headphones, sitting at a wooden table and engaging in a video call on her laptop in a modern kitchen setting."
+            />
+          </picture>
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-women-videochatting.jpg" />
+            <img
+              src="./assets/tablet/image-women-videochatting.png"
+              alt="Three older women smiling while looking at a smartphone together, sitting closely on a couch"
+          /></picture>
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-men-in-meeting.jpg" />
+            <img
+              src="./assets/tablet/image-men-in-meeting.png"
+              alt="Two men having a video conference, one visible on the laptop screen and the other holding documents while seated at a desk"
+          /></picture>
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-man-texting.jpg"
+            />
+            <img
+              src="./assets/tablet/image-man-texting.png"
+              alt="A man in a white sweater and watch sits on a couch, smiling while looking at his smartphone. Books and decor fill the shelves in the background."
+            />
+          </picture>
+        </div>
         <header>
           <p>Built for modern use</p>
           <h1>Smarter meetings, all in one place</h1>
@@ -82,13 +133,12 @@
         </p>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
-      <picture>
-        <img
-          src="./assets/mobile/number-two.png"
-          alt="A circular white icon with the number 02 in the center is suspended from a thin vertical line against a plain background."
-        />
-      </picture>
+      <img
+        src="./assets/mobile/number-two.png"
+        alt="A circular white icon with the number 02 in the center is suspended from a thin vertical line against a plain background."
+      />
       <h1>Experience more together</h1>
       <p>
         Stay connected with reliable HD meetings and unlimited one-on-one and
