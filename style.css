@@ -278,12 +278,26 @@ button {
   .upper-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     padding: 4rem 0 4rem 0;
   }
 
   .image-cluster-contaiener {
+    grid-column: 1/4;
+    grid-row: 1/3;
     justify-content: space-between;
     gap: unset;
+    height: 360px;
+  }
+
+  .cluster-heading {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 360px;
+  }
+
+  .button-group {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 360px;
   }
 }
