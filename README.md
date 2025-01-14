@@ -25,9 +25,9 @@ In essence, this website offers a concise and visually engaging introduction to 
 
 ### Screenshot
 
-![](./images/desktop-screenshot.png)
-![](./images/tablet-screenshot.png)
-![](./images/mobile-screenshot.png)
+![](./assets/desktop-screenshot.png)
+![](./assets/tablet-screenshot.png)
+![](./assets/mobile-screenshot.png)
 
 ### Links
 
