@@ -279,6 +279,10 @@ button {
     text-align: unset;
   }
 
+  .header-section {
+    margin: 80px auto 0 auto;
+  }
+
   .upper-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
