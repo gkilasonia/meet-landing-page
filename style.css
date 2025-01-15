@@ -41,11 +41,11 @@ button {
 }
 
 .img-cluster-left {
-  height: 160px;
+  height: 10rem;
 }
 
 .img-cluster-right {
-  height: 160px;
+  height: 10rem;
 }
 
 .cluster-heading {
@@ -59,7 +59,7 @@ button {
   line-height: 1.1;
   color: hsl(240, 21%, 20%);
   margin-bottom: 1.5rem;
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 
 .cluster-heading-text {
@@ -117,20 +117,20 @@ button {
 }
 
 .number-one {
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
 }
 
 .four-image-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 16px;
-  row-gap: 16px;
-  margin-bottom: 64px;
+  gap: 1rem;
+  row-gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .image-picture-box {
-  height: 144px;
+  height: 9rem;
 }
 
 .four-images {
@@ -140,30 +140,30 @@ button {
 
 .four-images-heading-text {
   font-weight: 900;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.1;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
   color: hsl(192, 37%, 48%);
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .four-images-heading {
   font-weight: 900;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 110%;
   color: hsl(240, 21%, 20%);
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .text-below-heading {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   color: hsl(240, 10%, 57%);
 }
 
 .number-two {
-  margin-bottom: -28px;
+  margin-bottom: -1.75rem;
   z-index: +1;
 }
 
@@ -171,8 +171,8 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  padding: 64px 32px;
+  gap: 1.5rem;
+  padding: 4rem 2rem;
   align-self: stretch;
   flex-grow: 0;
   background-image: url(./assets/mobile/image-footer.png);
@@ -182,17 +182,17 @@ button {
 
 .footer-header {
   font-weight: 900;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 110%;
   color: hsl(0, 0%, 98%);
 }
 
 .footer-text {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   color: hsl(0, 0%, 98%);
-  padding: 0 2px;
+  padding: 0 0.125rem;
 }
 
 .footer-btn {
@@ -214,19 +214,19 @@ button {
   }
 
   .img-cluster-left {
-    height: 303px;
+    height: 18.9375rem;
   }
 
   .img-cluster-right {
-    height: 303px;
+    height: 18.9375rem;
   }
 
   .cluster-heading {
-    margin: 72px 160px 24px 160px;
+    margin: 4.5rem 10rem 1.5rem 10rem;
   }
 
   .cluster-heading-header {
-    padding: 0 80px;
+    padding: 0 5rem;
   }
 
   .button-group {
@@ -235,7 +235,7 @@ button {
   }
 
   .four-image-section {
-    padding: 56px 44px 64px 44px;
+    padding: 3.5rem 2.75rem 4rem 2.75rem;
   }
 
   .four-image-container {
@@ -245,20 +245,20 @@ button {
   }
 
   .image-picture-box {
-    height: 160px;
+    height: 10rem;
   }
 
   .four-images-heading-text {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .four-images-heading {
-    font-size: 36px;
-    width: 445px;
+    font-size: 2.25rem;
+    width: 27.8125rem;
   }
 
   .text-below-heading {
-    width: 504px;
+    width: 31.5rem;
   }
 
   .footer-section {
@@ -266,11 +266,11 @@ button {
   }
 
   .footer-header {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .footer-text {
-    width: 504px;
+    width: 31.5rem;
   }
 }
 
@@ -280,7 +280,7 @@ button {
   }
 
   .header-section {
-    margin: 80px auto 0 auto;
+    margin: 5rem auto 0 auto;
   }
 
   .upper-section {
@@ -289,7 +289,7 @@ button {
     grid-template-rows: 1fr;
     align-items: center;
     padding: 4rem 0 4rem 0;
-    height: 488px;
+    height: 30.5rem;
   }
 
   .image-cluster-contaiener {
@@ -312,51 +312,51 @@ button {
   }
 
   .cluster-heading-header {
-    font-size: 64px;
-    padding: 0 20px;
-    margin: 23px 0 32px 0;
+    font-size: 4rem;
+    padding: 0 1.25rem;
+    margin: 1.4375rem 0 2rem 0;
   }
 
   .cluster-heading-text {
-    font-size: 18px;
-    padding: 0 20px;
+    font-size: 1.125rem;
+    padding: 0 1.25rem;
   }
 
   .button-group {
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: last baseline;
-    margin-bottom: 23px;
+    margin-bottom: 1.4375rem;
   }
 
   .four-image-container {
-    gap: 32px;
+    gap: 2rem;
   }
 
   .four-image-section {
-    padding: 56px 0 72px 0;
+    padding: 3.5rem 0 4.5rem 0;
   }
 
   .image-picture-box {
-    width: 256px;
-    height: 256px;
+    width: 16rem;
+    height: 16rem;
   }
 
   .four-images {
-    border-radius: 8px;
+    border-radius: 0.5rem;
   }
 
   .four-images-heading-text {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .four-images-heading {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .text-below-heading {
-    font-size: 18px;
-    width: 544px;
+    font-size: 1.125rem;
+    width: 34rem;
   }
 
   .footer-section {
@@ -365,21 +365,21 @@ button {
     justify-content: space-between;
     align-items: unset;
     gap: unset;
-    padding: 112px 160px;
+    padding: 7rem 10rem;
   }
 
   .footer-header {
-    font-size: 40px;
-    width: 445px;
+    font-size: 2.5rem;
+    width: 27.8125rem;
   }
 
   .footer-text {
-    font-size: 18px;
-    width: 350px;
+    font-size: 1.125rem;
+    width: 21.875rem;
     padding: 0;
   }
 
   .footer-btn {
-    margin-left: 95px;
+    margin-left: 5.9375rem;
   }
 }
